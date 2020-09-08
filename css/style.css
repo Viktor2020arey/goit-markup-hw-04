@@ -188,7 +188,28 @@ header {
 .advantages-title .item:last-child {
   margin-right: 0;
 }
+.advantages-title .item::before {
+  content: "";
+  display: block;
 
+  height: 120px;
+  background-image: url(../images/Group.svg);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bg-button-portfolio);
+
+  margin-bottom: 30px;
+}
+.advantages-title .clock-item::before {
+  background-image: url(../images/clock\ 1.svg);
+}
+.advantages-title .diagram-item::before {
+  background-image: url(../images/diagram\ 1.svg);
+}
+.advantages-title .astronaut-item::before {
+  background-image: url(../images/astronaut\ 1.svg);
+}
 .advantages-title .title {
   color: var(--title-text-color);
   font-weight: 700;
