@@ -83,12 +83,23 @@ ul {
   display: flex;
   margin-left: auto;
 }
+
 .header-adress .item + .item {
   margin-left: 50px;
 }
 
+.mail-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.tel-svg {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .header-adress a {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -104,6 +115,7 @@ ul {
 .header-adress a:focus {
   color: var(--accent-color);
 }
+
 .main-navigation {
   display: flex;
   align-items: center;
