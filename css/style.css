@@ -288,25 +288,14 @@ header {
   margin-top: 16px;
   margin-bottom: 30px;
 }
-.social-link {
-  width: 44px;
-  height: 44px;
-  background-color: tomato;
-  display: flex;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-}
 
-.social-link:hover {
-  background-color: var(--accent-color);
-}
 .link-icon {
-  fill: #afb1b8;
+  --color3: var(--white-text);
+  --color4: #afb1b8;
 }
 .link-icon:hover {
-  fill: var(--white-text);
-  background-color: red;
+  --color3: var(--accent-color);
+  --color4: var(--white-text);
 }
 
 .social-item:not(:last-child) {
