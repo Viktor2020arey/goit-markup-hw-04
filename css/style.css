@@ -182,7 +182,7 @@ header {
   background-color: var(--bg-button-portfolio);
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-bottom: 0px;
+  margin-bottom: 94px;
 }
 
 .advantages-title {
@@ -302,6 +302,36 @@ header {
   margin-right: 10px;
 }
 
+/* client */
+
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+.client-link {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-icon {
+  fill: #afb1b8;
+}
+.client-link:hover .client-icon {
+  fill: var(--accent-color);
+}
+.client-link:hover {
+  border: 1px solid var(--accent-color);
+}
+
 /* button */
 .button {
   background-color: var(--accent-color);
@@ -312,7 +342,6 @@ header {
   padding: 10px 32px;
   min-width: 200px;
   text-align: center;
-  /* border: 1px solid transparent; */
 
   font-family: inherit;
   font-weight: 700;
