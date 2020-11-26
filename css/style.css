@@ -374,7 +374,7 @@ header {
 }
 
 .card-link .card-img {
-  padding: 24px 20px;
+  padding: 20px 24px;
 }
 
 .button-portfolio button {
@@ -410,12 +410,14 @@ header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 .card-link p {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.87;
 }
 .card-link a {
   text-decoration: none;
@@ -468,6 +470,7 @@ footer {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   text-decoration: none;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -491,6 +494,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 
   margin-top: 9px;
   display: inline-block;
